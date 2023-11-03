@@ -2,6 +2,7 @@
   display: flex;
   justify-content: flex-end;
   margin: 20px;
+  cursor: pointer; 
 }
 
 .nav-section {
@@ -48,13 +49,24 @@
   position: absolute;
 }
 
-.hover01 figure img {
+.hover01 img {
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+  -webkit-transition: transform 0.5s ease-in-out; /* 변환에 대한 0.5초 애니메이션 */
+  transition: transform 0.5s ease-in-out;
+  width: 300px;
 }
-.hover01 figure:hover img {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+
+.hover01 img:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+}
+
+.product-img{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Dropdownbutton{
+  background-color:transparent;;
 }
