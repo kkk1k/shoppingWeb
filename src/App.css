@@ -1,0 +1,60 @@
+.LoginButton {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: center;
+}
+
+.menu_area {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+}
+.menu-list li {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+.search-box {
+  align-items: center;
+}
+
+.search-box input {
+  border: none;
+  background-color: #faf9f8;
+  padding-left: 20px;
+}
+
+.search-box input:focus {
+  outline: none;
+}
+
+.search-box-icon {
+  margin-left: 10px;
+}
+
+.landing-search-box {
+  right: 20px;
+  position: absolute;
+}
+
+.hover01 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.hover01 figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
