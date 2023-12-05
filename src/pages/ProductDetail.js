@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useParams } from "react-router-dom";
-import { DropdownButton, Dropdown } from "react-bootstrap";
+import { Dropdown } from "react-bootstrap";
 function ProductDetail() {
   let { id } = useParams();
   const [product, setProduct] = useState();
@@ -20,7 +20,7 @@ function ProductDetail() {
     <Container>
       <Row>
         <Col className="product-img">
-          <img src={product?.img} />
+          <img src={product?.img} alt="사진"/>
         </Col>
         <Col>
           <div>{product?.title}</div>

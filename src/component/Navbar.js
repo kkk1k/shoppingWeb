@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee, faUser } from "@fortawesome/free-regular-svg-icons";
+import {  faUser } from "@fortawesome/free-regular-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { Link, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 
 
 function Navbar({authenticate, setAuthenticate}) {
