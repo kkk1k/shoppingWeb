@@ -42,7 +42,7 @@ function Navbar({authenticate, setAuthenticate}) {
         <img alt="HM Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/220px-H%26M-Logo.svg.png" width={100} onClick={GotoHome}/>
       </div>
       <div className="menu_area">
-      
+    
           <ul className="menu-list">
             {menuList.map(menu=><li>{menu}</li>)}
           </ul>
